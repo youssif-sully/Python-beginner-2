@@ -36,7 +36,7 @@ with open('new_data.csv', 'w', newline='') as csv_file:
     element_id = 1
 
     # NOTE since we are using writer not DictWriter we can't use fieldsnames
-    csv_writer.writerow(['ID', 'FirstName', 'LastName', 'birthDate', 'Phone', 'Email'])
+    csv_writer.writerow(['ID', 'FirstName', 'LastName', 'BirthDate', 'Phone', 'Email'])
 
     # for creating 100 data inputs
     for line in range(100):
